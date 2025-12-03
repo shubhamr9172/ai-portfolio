@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume - Shubham Reddy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .resume {
+            background: white;
+            padding: 40px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 { color: #00f0ff; margin-bottom: 5px; }
+        h2 { color: #333; border-bottom: 2px solid #00f0ff; padding-bottom: 5px; margin-top: 30px; }
+        .contact { color: #666; margin-bottom: 30px; }
+    </style>
+</head>
+<body>
+    <div class="resume">
+        <h1>Shubham Reddy</h1>
+        <p class="contact">AI Engineer | hello@example.com | +1 (555) 123-4567 | San Francisco, CA</p>
+        
+        <h2>Summary</h2>
+        <p>Experienced AI Engineer specializing in Large Language Models, RAG pipelines, and intelligent automation systems. Proven track record of building production-grade AI applications.</p>
+        
+        <h2>Experience</h2>
+        <p><strong>AI Engineer</strong> - Tech Innovations Inc. (2023 - Present)<br>
+        Leading the development of RAG pipelines and autonomous agents. Optimized LLM inference costs by 40%.</p>
+        
+        <p><strong>Machine Learning Engineer</strong> - DataCorp Solutions (2021 - 2023)<br>
+        Built predictive models for customer churn and recommendation engines.</p>
+        
+        <h2>Education</h2>
+        <p><strong>Master of Science in AI</strong> - Stanford University (2022 - 2024)</p>
+        <p><strong>Bachelor of Technology in CS</strong> - JNTU Hyderabad (2015 - 2019)</p>
+        
+        <h2>Skills</h2>
+        <p>Python, LLMs, RAG, LangChain, PyTorch, Next.js, React, AWS, Docker</p>
+    </div>
+</body>
+</html>
