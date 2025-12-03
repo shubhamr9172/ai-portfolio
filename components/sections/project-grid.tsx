@@ -5,44 +5,14 @@ import { ProjectCard } from "@/components/ui/project-card"
 
 const projects = [
     {
-        title: "Enterprise RAG Knowledge Assistant",
-        slug: "rag-assistant",
-        description: "End-to-end Retrieval-Augmented Generation system with vector DB, metadata filtering, smart chunking, and evaluation.",
-        longDescription: "A sophisticated RAG system designed for enterprise knowledge management. It ingests documents from various sources, chunks them intelligently, and stores embeddings in a vector database. The system supports complex queries with metadata filtering and provides citations for every answer.",
-        tags: ["Next.js", "Python", "LangChain", "Pinecone", "OpenAI"],
-        image: "/projects/rag.png",
-        demoLink: "https://example.com",
-        githubLink: "https://github.com",
-    },
-    {
-        title: "AI Email & Document Automation Agent",
-        slug: "email-agent",
-        description: "Multi-step agent that reads, classifies, summarizes, and replies to business emails automatically.",
-        longDescription: "An autonomous agent that connects to email providers, classifies incoming emails based on intent, and drafts appropriate responses. It can also extract data from attachments and update CRM systems automatically.",
-        tags: ["Python", "AutoGPT", "Gmail API", "Docker"],
-        image: "/projects/email.png",
-        demoLink: "https://example.com",
-        githubLink: "https://github.com",
-    },
-    {
-        title: "AI Resume Tailor & Job Matcher",
-        slug: "resume-matcher",
-        description: "LLM tool that compares resumes with job descriptions, highlights gaps, and generates tailored resume + cover letter.",
-        longDescription: "A career tool that helps job seekers optimize their applications. It analyzes job descriptions to identify key requirements and rewrites resume bullet points to better align with the role, increasing the chances of passing ATS filters.",
-        tags: ["React", "FastAPI", "LLMs", "Prompt Engineering"],
-        image: "/projects/resume.png",
-        demoLink: "https://example.com",
-        githubLink: "https://github.com",
-    },
-    {
-        title: "AI FitBuddy – Personal Fitness Coach",
-        slug: "fitbuddy",
-        description: "AI wellness assistant generating workouts, meal plans, and weekly insights using structured prompts.",
-        longDescription: "A personalized fitness companion that creates custom workout routines and meal plans based on user goals and dietary restrictions. It tracks progress over time and adjusts recommendations using feedback loops.",
-        tags: ["Next.js", "Tailwind CSS", "OpenAI API", "Vercel"],
-        image: "/projects/fitness.png",
-        demoLink: "https://example.com",
-        githubLink: "https://github.com",
+        title: "Prompt Craft",
+        slug: "prompt-craft",
+        description: "A learning platform to learn all about prompts, LLMs, and prompt engineering techniques.",
+        longDescription: "Prompt Craft is a dedicated educational platform designed to help users master the art of prompt engineering. It covers everything from basic concepts to advanced techniques for interacting with Large Language Models (LLMs).",
+        tags: ["React", "LLMs", "Education", "Prompt Engineering"],
+        image: "/projects/prompt-craft.png", // Placeholder, user might need to upload one
+        demoLink: "https://promt-craft.netlify.app/#home",
+        githubLink: "https://github.com/shubhamr9172/prompt-craft",
     },
 ]
 

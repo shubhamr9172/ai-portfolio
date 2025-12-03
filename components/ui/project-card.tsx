@@ -43,9 +43,12 @@ export function ProjectCard({ project, index }: { project: ProjectProps; index: 
                     <div className="aspect-video relative overflow-hidden bg-muted">
                         <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent z-10" />
                         {/* Placeholder Image */}
-                        <div className="absolute inset-0 flex items-center justify-center text-muted-foreground bg-secondary/20">
-                            [Project Thumbnail]
-                        </div>
+                        <Image
+                            src={project.image}
+                            alt={project.title}
+                            fill
+                            className="object-cover transition-transform duration-500 group-hover:scale-105"
+                        />
                         <div className="absolute bottom-4 left-4 z-20">
                             <h3 className="text-xl font-bold text-foreground group-hover:text-primary transition-colors">
                                 {project.title}
@@ -86,9 +89,12 @@ export function ProjectCard({ project, index }: { project: ProjectProps; index: 
 
                 <div className="space-y-6 py-4">
                     <div className="aspect-video relative rounded-lg overflow-hidden bg-muted border border-border">
-                        <div className="absolute inset-0 flex items-center justify-center text-muted-foreground">
-                            [Project Demo / Screenshot]
-                        </div>
+                        <Image
+                            src={project.image}
+                            alt={project.title}
+                            fill
+                            className="object-cover"
+                        />
                     </div>
 
                     <div className="space-y-4">
@@ -112,15 +118,15 @@ export function ProjectCard({ project, index }: { project: ProjectProps; index: 
                     <div className="flex gap-4 pt-4">
                         {project.demoLink && (
                             <Button asChild className="flex-1">
-                                <Link href={project.demoLink} target="_blank">
-                                    Live Demo <ArrowUpRight className="ml-2 h-4 w-4" />
+                                <Link href={project.demoLink} target="_blank" className="flex items-center justify-center gap-2">
+                                    Live Demo <ArrowUpRight className="h-4 w-4" />
                                 </Link>
                             </Button>
                         )}
                         {project.githubLink && (
                             <Button asChild variant="outline" className="flex-1">
-                                <Link href={project.githubLink} target="_blank">
-                                    GitHub <Github className="ml-2 h-4 w-4" />
+                                <Link href={project.githubLink} target="_blank" className="flex items-center justify-center gap-2">
+                                    GitHub <Github className="h-4 w-4" />
                                 </Link>
                             </Button>
                         )}

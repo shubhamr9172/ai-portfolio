@@ -168,7 +168,7 @@ export function RagHero() {
                         >
                             <div className="relative group">
                                 <div className="absolute -inset-0.5 bg-gradient-to-r from-primary via-blue-500 to-primary rounded-2xl opacity-30 group-hover:opacity-50 blur transition duration-300 animate-gradient" />
-                                <div className="relative flex items-center gap-3 bg-zinc-950 border border-white/10 rounded-2xl p-4 backdrop-blur-xl">
+                                <div className="relative flex flex-col sm:flex-row items-stretch sm:items-center gap-3 bg-zinc-950 border border-white/10 rounded-2xl p-4 backdrop-blur-xl">
                                     <Search className="h-5 w-5 text-muted-foreground flex-shrink-0" />
                                     <input
                                         ref={inputRef}
@@ -183,7 +183,7 @@ export function RagHero() {
                                     />
                                     <button
                                         onClick={handleSearch}
-                                        className="flex items-center gap-2 px-6 py-2.5 bg-primary text-primary-foreground rounded-xl hover:bg-primary/90 transition-colors font-medium"
+                                        className="flex items-center justify-center gap-2 px-6 py-2.5 bg-primary text-primary-foreground rounded-xl hover:bg-primary/90 transition-colors font-medium w-full sm:w-auto"
                                         aria-label="Search"
                                     >
                                         Search
