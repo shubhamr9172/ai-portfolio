@@ -7,41 +7,41 @@ import { Section } from "@/components/ui/section"
 
 const experience = [
     {
-        title: "AI Engineer",
-        company: "Tech Innovations Inc.",
-        period: "2023 - Present",
-        description: "Leading the development of RAG pipelines and autonomous agents. Optimized LLM inference costs by 40%.",
-        type: "work",
-    },
-    {
-        title: "Machine Learning Engineer",
-        company: "DataCorp Solutions",
-        period: "2021 - 2023",
-        description: "Built predictive models for customer churn and recommendation engines. Deployed models to AWS SageMaker.",
-        type: "work",
-    },
-    {
-        title: "Software Engineer",
+        title: "Assistant System Engineer",
         company: "TCS",
-        period: "2019 - 2021",
-        description: "Developed scalable web applications using React and Node.js. Collaborated with cross-functional teams.",
+        period: "May 2024 - Present",
+        description: "Working in Java and support role for ServiceNow platform. Contributed to Adobe Sign project integration and maintenance.",
+        type: "work",
+    },
+    {
+        title: "Laravel Developer",
+        company: "David Solutions",
+        period: "2020 (6 Months)",
+        description: "Developed web applications using the Laravel framework. Built and maintained backend services.",
         type: "work",
     },
 ]
 
 const education = [
     {
-        title: "Master of Science in AI",
-        school: "Stanford University (Online)",
-        period: "2022 - 2024",
-        description: "Specialized in Natural Language Processing and Reinforcement Learning.",
+        title: "Bachelors of Engineering, Computer Science",
+        school: "Marathwada Mitra Mandal’s Institute of Technology, Pune",
+        period: "2021 – 2023",
+        description: "CGPA: 9.10",
         type: "education",
     },
     {
-        title: "Bachelor of Technology in CS",
-        school: "JNTU Hyderabad",
-        period: "2015 - 2019",
-        description: "Graduated with First Class with Distinction.",
+        title: "Diploma in Computer Engineering",
+        school: "Puranmal Lahoti Government Polytechnic, Latur",
+        period: "2017 - 2020",
+        description: "Percentage: 89.13%",
+        type: "education",
+    },
+    {
+        title: "Secondary School Certificate (Class X)",
+        school: "Shree Ganesh Vidyalay, Latur",
+        period: "Mar ‘17",
+        description: "Percentage: 87.20%",
         type: "education",
     },
 ]

@@ -68,7 +68,7 @@ export function ContactForm() {
                                 <div>
                                     <h3 className="font-semibold text-lg mb-1">Location</h3>
                                     <p className="text-muted-foreground">
-                                        San Francisco, CA<br />
+                                        Pune, Maharashtra<br />
                                         (Open to Remote)
                                     </p>
                                 </div>

@@ -17,11 +17,13 @@ export function Bio() {
                         className="w-full md:w-1/3 flex justify-center"
                     >
                         <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-2xl overflow-hidden border-2 border-primary/20 shadow-[0_0_40px_rgba(0,240,255,0.2)]">
-                            {/* Placeholder for profile image */}
-                            <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-purple-500/20 animate-pulse" />
-                            <div className="absolute inset-0 flex items-center justify-center text-muted-foreground">
-                                [Profile Image]
-                            </div>
+                            <Image
+                                src="/profile.jpg"
+                                alt="Shubham Reddy"
+                                fill
+                                className="object-cover"
+                                priority
+                            />
                         </div>
                     </motion.div>
 

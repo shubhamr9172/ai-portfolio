@@ -28,7 +28,7 @@ export function Hero() {
                     initial={{ opacity: 0, y: 20, filter: "blur(10px)" }}
                     animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
                     transition={{ duration: 0.8, delay: 0.1 }}
-                    className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6"
+                    className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6 leading-snug"
                 >
                     <span className="inline-block bg-clip-text text-transparent bg-gradient-to-r from-white via-primary to-blue-400 animate-gradient">
                         AI Engineer Building
@@ -52,16 +52,16 @@ export function Hero() {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: 0.3 }}
-                    className="flex flex-col sm:flex-row gap-4"
+                    className="flex flex-col sm:flex-row gap-4 items-center justify-center"
                 >
                     <Button asChild size="lg" className="rounded-full text-base h-12 px-8 animate-glow-pulse">
-                        <Link href="/projects">
-                            View Projects <ArrowRight className="ml-2 h-4 w-4" />
+                        <Link href="/projects" className="flex items-center gap-2">
+                            View Projects <ArrowRight className="h-4 w-4" />
                         </Link>
                     </Button>
                     <Button asChild variant="outline" size="lg" className="rounded-full text-base h-12 px-8 border-primary/20 hover:bg-primary/10">
-                        <Link href="/resume.pdf" target="_blank">
-                            Download Resume <Download className="ml-2 h-4 w-4" />
+                        <Link href="/resume.pdf" target="_blank" className="flex items-center gap-2">
+                            Download Resume <Download className="h-4 w-4" />
                         </Link>
                     </Button>
                 </motion.div>
